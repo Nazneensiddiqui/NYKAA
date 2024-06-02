@@ -18,7 +18,7 @@ gap: 30px;}
 input{justify-content: end;}
  button{background-color:crimson; color:white;
 border-radius: 5px;
- justify-content: end;}
+justify-content: end;}
 .two{height: 40px;
 box-shadow: 1px 1px 1px  black;}
 .two ul{display: flex;
@@ -30,9 +30,22 @@ text-transform: capitalize;}
      justify-content: space-between; display: flex;}  
 img{justify-content:start;}
 
-.head {background-color:rgb(218, 128, 162); height:400px;
-    align-items: center; justify-content:center; padding:50px;}
+.head {display: flex;
+justify-content: space-evenly;
+gap:10px;} 
 
 h1 {color:crimson}
 h3 {color:deeppink}
-p{ color:darkred ; word-spacing: 8px; text-transform: capitalize;}
+p{ color:maroon; word-spacing: 8px; text-transform: capitalize;}
+.sana {background-color: rgb(240, 190, 190); height:300px; width:1000px; margin-left: 100px;
+display: flex; justify-content: space-between;} 
+h1{ line-height: 50px;}
+.papa{background-image: url(wall.jpeg);height:200px; background-repeat:no-repeat;
+background-size: contain; margin-left: 500px; text-align: center;}
+.mop{display: flex; justify-content: space-evenly; background-color:antiquewhite; padding: 50px;
+     }
+h2{color: brown;}
+.mop3{padding-top: 70px;}
+.fort{ display: flex; justify-content: space-evenly; padding: 50px;}
+.fort1{ display: flex;justify-content: space-evenly;}
+
