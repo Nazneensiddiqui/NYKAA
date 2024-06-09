@@ -1,51 +1,123 @@
 .one{height: 30px;
 box-shadow: 1px 1px 1px black;
-background-color: deeppink;}
+background-color: deeppink;
+flex-wrap: wrap-reverse;}
 
 
-.nevbar{height:50px;
+.nevbar{height:40px;
     box-shadow: 1px 1px 1px  black; 
     background-color: white;
     text-transform: capitalize;
-display: flex;
-align-items: center; padding-left: 30px;
-} 
-    .nevbar h1{ color:deeppink} 
+display: flex; justify-content: space-evenly; 
+padding-left: 30px; align-items:center; padding-top: 20px;
+flex-wrap: wrap-reverse;} 
+
+
+ .nevbar h1{ color:deeppink} 
 .nevbar ul{
 display: flex;
-gap: 30px;}
+gap: 30px; flex-wrap: wrap-reverse;}
 
-input{justify-content: end;}
- button{background-color:crimson; color:white;
-border-radius: 5px;
+input{justify-content: end;flex-wrap: wrap-reverse;}
+ button{background-color:rgb(238, 108, 134); color:white;
+border-radius: 5px; flex-wrap: wrap-reverse;
 justify-content: end;}
+
 .two{height: 40px;
-box-shadow: 1px 1px 1px  black;}
+box-shadow: 1px 1px 1px  black; flex-wrap: wrap-reverse;}
 .two ul{display: flex;
 gap:40px;
 text-transform: capitalize;}
 
 .demo{height:300px; width: 1000px; background-color:lightpink;
-     margin-left:100px; align-items: center;
+     margin-left:100px; align-items: center; flex-wrap: wrap-reverse;
      justify-content: space-between; display: flex;}  
 img{justify-content:start;}
 
 .head {display: flex;
-justify-content: space-evenly;
+justify-content: space-evenly; flex-wrap: wrap-reverse;
 gap:10px;} 
 
-h1 {color:crimson}
-h3 {color:deeppink}
-p{ color:maroon; word-spacing: 8px; text-transform: capitalize;}
-.sana {background-color: rgb(240, 190, 190); height:300px; width:1000px; margin-left: 100px;
-display: flex; justify-content: space-between;} 
-h1{ line-height: 50px;}
-.papa{background-image: url(wall.jpeg);height:200px; background-repeat:no-repeat;
-background-size: contain; margin-left: 500px; text-align: center;}
-.mop{display: flex; justify-content: space-evenly; background-color:antiquewhite; padding: 50px;
+h1 {color:crimson; flex-wrap: wrap-reverse;}
+h3 {color:deeppink; flex-wrap: wrap-reverse;}      
+p{ color:maroon; word-spacing: 8px; text-transform: capitalize;flex-wrap: wrap-reverse;}
+
+.sana {background-color: rgb(240, 190, 190); height:300px; width:1000px; margin-left: 150px;
+display: flex; justify-content: space-between; flex-wrap: wrap-reverse;} 
+h1{ line-height:40px; flex-wrap: wrap-reverse;}
+
+.papa{display: flex; justify-content: space-evenly; flex-wrap: wrap-reverse;}
+.mop{ display: flex; justify-content: space-evenly;flex-wrap: wrap-reverse;
+     background-color:antiquewhite; padding: 50px;}
+     h2{color: brown; flex-wrap: wrap-reverse;}
+
+.fort{ background-color:rgb(250, 233, 212); display: flex; flex-wrap: wrap-reverse;
+     justify-content: space-evenly; padding: 50px;}
+
+.fort h2{color:deeppink; flex-wrap: wrap-reverse;}
+
+.fort0{height:600px; flex-wrap: wrap-reverse;
+    width:350px; box-shadow: 1px 1px 5px black; padding:20px;}
+
+    .fort2{height:600px; flex-wrap: wrap-reverse;
+        width:350px; box-shadow: 1px 1px 5px black; padding: 20px;
+         flex-wrap: wrap-reverse;}
+
+        .fort3{height:600px; width:350px; box-shadow: 1px 1px 5px black;
+             padding: 20px;flex-wrap: wrap-reverse;}
+
+             .fo1{height:600px; flex-wrap: wrap-reverse;
+               width:350px; box-shadow: 1px 1px 5px black; padding:20px;}
+
+          
+              .fo2{height:600px; flex-wrap: wrap-reverse;
+               width:350px; box-shadow: 1px 1px 5px black; padding:20px;}
+                
+               .fo3{height:600px; flex-wrap: wrap-reverse;
+                    width:350px; box-shadow: 1px 1px 5px black; padding:20px;}
+
+                   .papa{display: flex;justify-content: center;flex-wrap: wrap-reverse;
+                align-items: center; margin-left: 100px; margin-right: 100px;
+                     box-shadow: 2px 3px 5px black;}
+
+    .son{text-align: center; flex-wrap: wrap-reverse;}
+    .papa p {color: black; flex-wrap: wrap-reverse;} 
+
+
+    .daddy{background-image: url(make3.jpg);height: 400px; margin: 100px;
+            flex-wrap: wrap-reverse;
+            background-size: cover;
+        background-position: center; 
+    display: flex;
+justify-content: center;
+align-items:left;}
+ h1{color: black; text-transform: capitalize;flex-wrap: wrap-reverse; }
+
+ .parent{ background-color:aqua; border:2px solid;
+     height: 500px; grid-template-columns: repeat(5,auto);
+     grid-template-rows: repeat(2,auto); display: grid;flex-wrap: wrap;
      }
-h2{color: brown;}
-.mop3{padding-top: 70px;}
-.fort{ display: flex; justify-content: space-evenly; padding: 50px;}
-.fort1{ display: flex;justify-content: space-evenly;}
+ .ch{ background-color: aqua;
+          border: 2px solid; gap:50px;}
+          
+ 
+.ch1{ grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;}
+
+ 
+.ch2{ grid-column-start: 1;
+     grid-column-end: 2;
+     grid-row-start: 2;
+     grid-row-end: 3;}
+
+
+     
+    
+
+      
+
+
+
 
