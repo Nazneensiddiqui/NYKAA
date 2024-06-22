@@ -80,34 +80,124 @@ h1{ line-height:40px; flex-wrap: wrap-reverse;}
                 align-items: center; margin-left: 100px; margin-right: 100px;
                      box-shadow: 2px 3px 5px black;}
 
-    .son{text-align: center; flex-wrap: wrap-reverse;}
-    .papa p {color: black; flex-wrap: wrap-reverse;} 
+                     .son{text-align: center; flex-wrap: wrap-reverse;}
+                     .papa p {color: black; flex-wrap: wrap-reverse;} 
 
 
-    .daddy{background-image: url(make3.jpg);height: 400px; margin: 100px;
-            flex-wrap: wrap-reverse;
-            background-size: cover;
-        background-position: center; 
-    display: flex;
-justify-content: center;
-align-items:left;}
- h1{color: black; text-transform: capitalize;flex-wrap: wrap-reverse; }
+                   .daddy{background-image: url(make3.jpg);height: 400px; margin: 100px;
+                    flex-wrap: wrap-reverse;
+                   background-size: cover;
+                  background-position: center; 
+                 display: flex;
+                   justify-content: center;
+                        align-items:left;}
+                      h1{color: black; text-transform: capitalize;flex-wrap: wrap-reverse; }
 
- .parent{ background-color:lightpink; border:2px solid;
-     height: 300px; grid-template-columns: repeat(2,auto);
-     grid-template-rows: repeat(2,auto); display: grid;flex-wrap: wrap-reverse;
-     }
- .ch{ background-color: lightpink;
-          border: 2px solid; gap:50px;}
-     .ch3{display: flex; justify-content: space-around;} 
+               .parent{ background-color:lightpink; border:2px solid;
+                 height: 300px; grid-template-columns: repeat(2,auto);
+                grid-template-rows: repeat(2,auto); display: grid;flex-wrap: wrap-reverse; }
+
+             .ch{ background-color: lightpink;
+                   border: 2px solid; gap:50px;}
+                 .ch3{display: flex; justify-content: space-around;} 
+
+     .nevbar ul{
+          display: flex;
+        gap:30px;
+      }
+      .nevbar label{display: none;
+      }
+      .nevbar lable i{ color: blue;}
+      
+     #demo{ display: none;}
+
+      #demo:checked~.nevbar ul{
+          display: block;
+      }
+      
+      @media screen and (max-width:600px) 
+       {
+          .nevbar label{
+              display: block;
+          }
+          .nevbar ul{ display: none;
+          margin-top: 170px;}
+          .nevbar{
+              height: 90px;
+          }
+          .two{
+            display: none;
+          }
+      }
+      .ali{
+        background-color: antiquewhite;
+        display: flex;
+        justify-content:space-around;}
+
+        .ali1{height:600px; flex-wrap: wrap-reverse;
+            width:350px; box-shadow: 1px 1px 5px black; padding:20px;}
+    
 
           
 
+            .nevbar h1{
+              position: relative;
+              animation-name: slide;
+              animation-duration: 2s;
+              animation-iteration-count: infinite;
+          }
+          
+              @keyframes slide {
+                 to{
+                      left: 0px;
+                      top:0px;
+          
+                  }
+                  from{
+                      top:0;
+                      left:100px;
+                  }
+                }
 
- 
+
+                 h1{
+                  position: relative;
+                  animation-name: slide;
+                  animation-duration: 2s;
+                  animation-iteration-count: infinite;
+              }
+              
+                  @keyframes slide {
+                     to{
+                          left: 0px;
+                          top:0px;
+              
+                      }
+                      from{
+                          top:0;
+                          left:100px;
+                      }
+                    }
 
 
-
+                    h3{
+                      position: relative;
+                      animation-name: slide;
+                      animation-duration: 2s;
+                      animation-iteration-count: infinite;
+                  }
+                  
+                      @keyframes slide {
+                         to{
+                              left: 0px;
+                              top:0px;
+                  
+                          }
+                          from{
+                              top:0;
+                              left:100px;
+                          }
+                        }
      
     
 
