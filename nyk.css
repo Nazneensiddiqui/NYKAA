@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .one{height: 30px;
 box-shadow: 1px 1px 1px black;
 background-color: deeppink;
@@ -30,9 +33,32 @@ gap:40px;
 text-transform: capitalize;}
 
 .demo{height:300px; width: 1000px; background-color:lightpink;
-     margin-left:100px; align-items: center; flex-wrap: wrap-reverse;
+     margin-left:100px; align-items: center;
      justify-content: space-between; display: flex;}  
 img{justify-content:start;}
+
+
+
+
+/*.demo{ background-color:lightpink; border: none;
+  height: 300px; grid-template-columns:repeat(3,auto);
+ display: grid; }*/
+
+ @media screen and (max-width:750px) {
+  .demo{ background-color: lightpink;
+    height: 300px; 
+   display: none;}
+   
+ }
+
+.de{ background-color: lightpink;}
+   /* border: 2px solid; gap:50px;}
+  {display: flex; justify-content: space-around;} */
+
+
+
+
+
 
 .head {display: flex;
 justify-content: space-evenly; flex-wrap: wrap-reverse;
@@ -46,10 +72,22 @@ p{ color:maroon; word-spacing: 8px; text-transform: capitalize;flex-wrap: wrap-r
 display: flex; justify-content: space-between; flex-wrap: wrap-reverse;} 
 h1{ line-height:40px; flex-wrap: wrap-reverse;}
 
+@media  screen and (max-width:750px) {
+  .sana{
+    display: none;
+  }
+}
+  
+
+
+
+
 .papa{display: flex; justify-content: space-evenly; flex-wrap: wrap-reverse;}
 .mop{ display: flex; justify-content: space-evenly;flex-wrap: wrap-reverse;
-     background-color:antiquewhite; padding: 50px;}
+     background-color:antiquewhite; padding: 50px; gap: 10px;}
      h2{color: brown; flex-wrap: wrap-reverse;}
+
+
 
 .fort{ background-color:rgb(250, 233, 212); display: flex; flex-wrap: wrap-reverse;
      justify-content: space-evenly; padding: 50px;}
@@ -121,12 +159,23 @@ h1{ line-height:40px; flex-wrap: wrap-reverse;}
               display: block;
           }
           .nevbar ul{ display: none;
-          margin-top: 170px;}
+           position: absolute;
+          top: 130px;
+          width: 100%;
+          background-color: hotpink;
+          padding: 20px;
+          left: 0;
+          z-index: 1;
+      
+        }
           .nevbar{
               height: 90px;
           }
           .two{
             display: none;
+          }
+          .demo{
+            flex-direction: column;
           }
       }
       .ali{
@@ -198,8 +247,18 @@ h1{ line-height:40px; flex-wrap: wrap-reverse;}
                               left:100px;
                           }
                         }
+          
+                        .off:hover{
+                          background-color: lightgreen;
+                          color: red;
+                          padding: 20px;
+                          border-radius: 20px;
+                          border: none;
+                      }
      
-    
+    @media screen and (max-width) {
+      
+    }
 
       
 
